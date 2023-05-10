@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+}
+
+.menu-h {
+    background:rgb(37,37,39);
+}
+.menu-h ul {
+max-width: 800px;
+list-style: none;
+}
+
+.menu-h ul li {
+    display: inline;
+}
+
+.menu-h ul li a {
+    color:#fff;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background.4s;
+}
+
+.menu-h ul li a:hover{
+    background:rgb(24 139 233);
+}

@@ -1,0 +1,36 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(207, 207, 177);
+}
+
+.container {
+    border: 10px rgb(107, 104, 104);
+    margin: 15px auto;
+    width: 80% ;
+    height: 80vh;
+    display: grid;
+
+
+
+}
+
+header {
+    background: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+main {}
+
+header .maria{
+
+    font-size: 10rem;
+}
+header .jose{
+    font-size: 5rem;
+    color: blueviolet;
+}

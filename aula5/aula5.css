@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border: 10px solid #000;
+    width:  100%;
+    height: 800px;
+    margin: 0auto;
+    position: relative;
+    overflow:  hidden;
+}
+
+.container div {
+width: 250px;
+height:250px;
+border: 1px solid black;
+margin: 20px;
+position: absolute;
+}
+.box1{
+    background: red;
+    top: 110px;
+    left: 225px;
+}
+.box2 {
+    background: blue;
+    top: 110px;
+    right: 500px;
+}
+.box3 {
+background: yellow;
+top: 440px;
+left: 225px
+}
+.box4 {
+    background: green;
+    top: 440;
+    right:500px;
+}
+<div class="box1"></div>
+
+
